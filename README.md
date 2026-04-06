@@ -111,17 +111,23 @@
 
 <p align="center">
   <a href="https://github.com/Nikhil-Mundhra">
-    <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-Mundhra&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" alt="Nikhil's GitHub Stats" height="165" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Nikhil-Mundhra">
-    <img src="https://streak-stats.demolab.com?user=Nikhil-Mundhra&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" height="165" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nikhil-Mundhra&theme=github_dark" alt="Nikhil's GitHub Summary" width="100%" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Nikhil-Mundhra">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-Mundhra&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Nikhil-Mundhra&theme=github_dark" alt="Top Languages by Repo" height="165" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Nikhil-Mundhra">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nikhil-Mundhra&theme=github_dark" alt="Top Languages by Commit" height="165" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Nikhil-Mundhra">
+    <img src="https://streak-stats.demolab.com?user=Nikhil-Mundhra&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" height="165" />
   </a>
 </p>
 
