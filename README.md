@@ -121,10 +121,8 @@
 
 | Platform | Link |
 |---|---|
-| 💼 LinkedIn | <!-- [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile) --> |
-| 🌐 Portfolio | <!-- [your-portfolio.com](https://your-portfolio.com) --> |
-| 🐦 Twitter / X | <!-- [@your-handle](https://twitter.com/your-handle) --> |
-| 📧 Email | <!-- your@email.com --> |
+| 💼 LinkedIn | <!-- [linkedin.com/in/your-profile](https://www.linkedin.com/in/mundhra-nikhil/) --> |
+| 📧 Email | <!-- nikhilmundhra28@gmail.com --> |
 
 ---
 
