@@ -110,9 +110,25 @@
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-Mundhra&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="Nikhil's GitHub Stats" height="165" />
+  <a href="https://github.com/Nikhil-Mundhra">
+    <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-Mundhra&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" alt="Nikhil's GitHub Stats" height="165" />
+  </a>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-Mundhra&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" height="165" />
+  <a href="https://github.com/Nikhil-Mundhra">
+    <img src="https://streak-stats.demolab.com?user=Nikhil-Mundhra&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" height="165" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Nikhil-Mundhra">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-Mundhra&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Nikhil-Mundhra">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nikhil-Mundhra&theme=github-compact&hide_border=true" alt="Contribution Activity Graph" width="100%" />
+  </a>
 </p>
 
 ---
@@ -121,8 +137,8 @@
 
 | Platform | Link |
 |---|---|
-| 💼 LinkedIn | <!-- [linkedin.com/in/your-profile](https://www.linkedin.com/in/mundhra-nikhil/) --> |
-| 📧 Email | <!-- nikhilmundhra28@gmail.com --> |
+| 💼 LinkedIn | [linkedin.com/in/mundhra-nikhil](https://www.linkedin.com/in/mundhra-nikhil/) |
+| 📧 Email | [nikhilmundhra28@gmail.com](mailto:nikhilmundhra28@gmail.com) |
 
 ---
 
