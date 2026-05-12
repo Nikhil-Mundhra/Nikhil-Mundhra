@@ -64,6 +64,7 @@
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
@@ -137,7 +138,11 @@
   </a>
 </p>
 
-[![Nikhil Mundhra profile views](https://u8views.com/api/v1/github/profiles/85297880/views/day-week-month-total-count.svg)](https://u8views.com/github/Nikhil-Mundhra)
+<p align="center">
+  <a href="https://u8views.com/github/Nikhil-Mundhra">
+    <img src="https://u8views.com/api/v1/github/profiles/85297880/views/day-week-month-total-count.svg" alt="Nikhil Mundhra profile views">
+  </a>
+</p>
 
 
 ---
