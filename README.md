@@ -137,7 +137,7 @@
   </a>
 </p>
 
-[![Profile views](https://u8views.com/api/v1/github/profiles/85297880/views/day-week-month-total-count.svg)](https://u8views.com/github/Nikhil-Mundhra)
+[![Nikhil Mundhra profile views](https://u8views.com/api/v1/github/profiles/85297880/views/day-week-month-total-count.svg)](https://u8views.com/github/Nikhil-Mundhra)
 
 
 ---
