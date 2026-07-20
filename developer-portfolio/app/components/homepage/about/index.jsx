@@ -22,15 +22,20 @@ function AboutSection() {
             {personalData.description}
           </p>
         </div>
-        <div className="flex justify-center order-1 lg:order-2">
-          <Image
-            src={personalData.profile}
-            width={280}
-            height={280}
-            alt="Nikhil Mundhra"
-            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
-            style={{ width: 'auto', height: 'auto' }}
-          />
+        <div className="flex justify-center order-1 lg:order-2 items-center">
+          <div className="relative rounded-[2rem] p-[2px] bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-600 shadow-[0_0_40px_rgba(139,92,246,0.3)] transition-all duration-500 hover:shadow-[0_0_60px_rgba(139,92,246,0.5)] hover:-translate-y-2 cursor-pointer group">
+            <div className="bg-[#0a0f25] rounded-[2rem] p-4 h-full w-full relative overflow-hidden flex items-end justify-center">
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-gradient-to-tr from-[#16f2b3] to-fuchsia-500 rounded-full blur-[3rem] opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
+              <Image
+                src={personalData.profile}
+                width={280}
+                height={280}
+                alt="Nikhil Mundhra"
+                className="relative z-10 transition-all duration-500 group-hover:scale-105 drop-shadow-[0_15px_15px_rgba(0,0,0,0.8)]"
+                style={{ width: 'auto', height: 'auto', maxHeight: '350px' }}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>

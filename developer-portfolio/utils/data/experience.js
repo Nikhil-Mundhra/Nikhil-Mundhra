@@ -1,20 +1,26 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)"
+    title: 'AI Intern',
+    company: 'Kanerika Software Pvt. Ltd.',
+    duration: '(Jun 2026 - Aug 2026)'
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
+    title: 'Founder & Software Developer',
+    company: 'VivahGo Planners',
+    duration: '(Mar 2026 - Present)'
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
+    title: 'Co-Founder',
+    company: 'DeedFlow',
+    duration: '(Feb 2026 - Present)'
+  },
+  {
+    id: 4,
+    title: 'Freelance Software Developer',
+    company: 'Naturo Industries',
+    duration: '(Aug 2025 - Jan 2026)'
   }
 ]
