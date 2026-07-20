@@ -44,11 +44,22 @@ function Certifications() {
                     height={200}
                     className="absolute bottom-0 opacity-80"
                   />
-                  <div className="flex items-center justify-center p-4">
-                    <div className="text-violet-500 transition-all duration-300 hover:scale-125">
-                      <FaCertificate size={48} />
+                  {cert.image ? (
+                    <div className="relative w-full h-48 md:h-56 rounded-lg overflow-hidden my-4 p-2 bg-white/5">
+                      <Image
+                        src={cert.image}
+                        alt={cert.title}
+                        fill
+                        className="object-contain"
+                      />
                     </div>
-                  </div>
+                  ) : (
+                    <div className="flex items-center justify-center p-4">
+                      <div className="text-violet-500 transition-all duration-300 hover:scale-125">
+                        <FaCertificate size={48} />
+                      </div>
+                    </div>
+                  )}
                   <div className="px-3 pb-5">
                     <p className="text-base sm:text-xl font-medium">
                       {cert.title}
