@@ -25,15 +25,6 @@ export const projectsData = [
         code: '',
         role: 'Full Stack Developer',
         demo: '',
-    },
-    {
-        id: 4,
-        name: 'Naturo Industries Software',
-        description: "Developing and optimizing a product search software compatible with Cloud Directories. Developed and implemented NaturoIndustries.com website and integrated several Google Apps Script workflow automations for a seamless appointment system.",
-        tools: ['Google Apps Script', 'Cloud Directories', 'HTML', 'CSS', 'Javascript'],
-        code: 'https://github.com/Nikhil-Mundhra/Naturo',
-        demo: 'https://naturoindustries.com',
-        role: 'Software Developer',
     }
 ];
 

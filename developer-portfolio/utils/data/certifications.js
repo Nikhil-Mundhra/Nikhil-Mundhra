@@ -17,10 +17,12 @@ export const certifications = [
   {
     id: 4,
     title: "LinkedIn Marketing Strategy",
+    image: "/certificates/Linkedin Marketing Strategy.png"
   },
   {
     id: 5,
     title: "NYU Startup Bootcamp",
+    image: "/certificates/NYU Startup Bootcamp Certificate.png"
   },
   {
     id: 6,
@@ -64,6 +66,7 @@ export const certifications = [
   {
     id: 15,
     title: "Certificate of Appreciation for DHEERA (No to VAW) Program",
+    image: "/certificates/Dheera Student Volunteer.png"
   },
   {
     id: 16,
@@ -76,5 +79,10 @@ export const certifications = [
   {
     id: 18,
     title: "National Finalist @ RoboCup Junior",
+  },
+  {
+    id: 19,
+    title: "Cultura Skills Certificate",
+    image: "/certificates/Cultura Skills Certificate.png"
   }
 ];

@@ -9,7 +9,7 @@ export const skillsData = [
   },
   {
     title: 'Backend',
-    skills: ['FastAPI', 'GraphQL']
+    skills: ['FastAPI', 'GraphQL', 'Flask']
   },
   {
     title: 'Data & ML',
@@ -17,7 +17,7 @@ export const skillsData = [
   },
   {
     title: 'Databases',
-    skills: ['PostgreSQL', 'MySQL', 'MongoDB']
+    skills: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis']
   },
   {
     title: 'DevOps & Cloud',
