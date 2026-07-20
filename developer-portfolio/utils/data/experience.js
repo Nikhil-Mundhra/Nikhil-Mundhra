@@ -13,12 +13,6 @@ export const experiences = [
   },
   {
     id: 3,
-    title: 'Co-Founder',
-    company: 'DeedFlow',
-    duration: '(Feb 2026 - Present)'
-  },
-  {
-    id: 4,
     title: 'Freelance Software Developer',
     company: 'Naturo Industries',
     duration: '(Aug 2025 - Jan 2026)'
