@@ -13,6 +13,12 @@ export const experiences = [
   },
   {
     id: 3,
+    title: 'Cyber Security & Project Management Intern',
+    company: 'Alstom Transport India Limited',
+    duration: '(Jun 2025 - Aug 2025)'
+  },
+  {
+    id: 4,
     title: 'Freelance Software Developer',
     company: 'Naturo Industries',
     duration: '(Aug 2025 - Jan 2026)'
