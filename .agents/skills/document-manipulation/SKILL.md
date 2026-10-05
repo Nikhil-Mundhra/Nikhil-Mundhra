@@ -31,6 +31,7 @@ node C:\Users\Int202613\.gemini\config\skills\document-manipulation\scripts\docx
 Converts a markdown (`.md`) file to a formatted `.pdf` using headless Chromium, Google Chrome, or Microsoft Edge.
 - **LaTeX / Mathematical Typesetting**: Full support for inline math (`$0.9025$`, `$P_{95}$`, `$\mu\text{m}$`, `\( ... \)`) and display equations (`$$ ... $$`, `\[ ... \]`) via KaTeX auto-rendering.
 - **Syntax Protection**: Automatically isolates math expressions before Markdown parsing so underscores and symbols are not mangled into HTML tags.
+- **GitHub Alert Callouts**: Native rendering for GitHub-style blockquote alerts (`[!NOTE]`, `[!TIP]`, `[!IMPORTANT]`, `[!WARNING]`, and `[!CAUTION]`) with styled callout cards, official SVG icons, accent borders, and background color themes.
 - **Deterministic Headless Rendering**: Utilizes Chrome virtual time budget flags (`--virtual-time-budget=4000`, `--run-all-compositor-stages-before-draw`) to ensure sub-pixel typography and equations are settled before snapshotting.
 - **Browser Discovery**: Auto-detects Playwright `chrome-headless-shell` (bypassing macOS display link latency), standard Google Chrome, Microsoft Edge, and Chromium.
 

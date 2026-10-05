@@ -8,7 +8,61 @@ import glob
 import shutil
 
 
+ALERT_ICONS = {
+    'NOTE': '<svg class="octicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>',
+    'TIP': '<svg class="octicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.18.213-.362.43-.542.681-.207.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6.25 15h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1 0-1.5Z"></path></svg>',
+    'IMPORTANT': '<svg class="octicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>',
+    'WARNING': '<svg class="octicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>',
+    'CAUTION': '<svg class="octicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M4.47.047A.75.75 0 0 1 5 0h6a.75.75 0 0 1 .53.22l4.25 4.25c.141.14.22.331.22.53v6a.75.75 0 0 1-.22.53l-4.25 4.25A.75.75 0 0 1 11 16H5a.75.75 0 0 1-.53-.22L.22 11.53A.75.75 0 0 1 0 11V5a.75.75 0 0 1 .22-.53Zm.84 1.28L1.5 5.13v5.74l3.81 3.81h5.74l3.81-3.82V5.13L11.05 1.32Zm4.69 3.43v3.5a.75.75 0 0 1-1.5 0v-3.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>'
+}
+
+
+def preprocess_github_alerts(md_text: str) -> str:
+    lines = md_text.split('\n')
+    new_lines = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        match = re.match(r'^\s*>\s*\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\](?:\s*(.*))?$', line, re.IGNORECASE)
+        if match:
+            alert_type = match.group(1).upper()
+            alert_lines = []
+            if match.group(2) and match.group(2).strip():
+                alert_lines.append(match.group(2).strip())
+            i += 1
+            while i < len(lines):
+                curr = lines[i]
+                if re.match(r'^\s*>', curr):
+                    stripped = re.sub(r'^\s*>\s?', '', curr)
+                    alert_lines.append(stripped)
+                    i += 1
+                elif curr.strip() == '':
+                    if i + 1 < len(lines) and re.match(r'^\s*>', lines[i + 1]):
+                        alert_lines.append('')
+                        i += 1
+                    else:
+                        break
+                else:
+                    break
+
+            inner_content = '\n'.join(alert_lines)
+            icon_svg = ALERT_ICONS.get(alert_type, '')
+            new_lines.append(f'<div class="markdown-alert markdown-alert-{alert_type.lower()}" markdown="1">')
+            new_lines.append(f'<p class="markdown-alert-title">{icon_svg}<span>{alert_type.capitalize()}</span></p>')
+            new_lines.append('')
+            new_lines.append(inner_content)
+            new_lines.append('')
+            new_lines.append('</div>')
+        else:
+            new_lines.append(line)
+            i += 1
+    return '\n'.join(new_lines)
+
+
 def protect_and_convert_markdown(md_text: str) -> str:
+    # 0. Preprocess GitHub-style alerts (> [!NOTE], > [!IMPORTANT], etc.)
+    md_text = preprocess_github_alerts(md_text)
+
     # Fix lists that don't have a blank line before them (strict markdown requirement)
     lines = md_text.split('\n')
     fixed_lines = []
@@ -271,6 +325,98 @@ def main():
             margin: 1em 0;
             overflow-x: auto;
             overflow-y: hidden;
+        }}
+        /* GitHub Alert Callouts */
+        .markdown-alert {{
+            padding: 12px 16px;
+            margin: 16px 0;
+            border-left: 4px solid;
+            border-radius: 6px;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }}
+        .markdown-alert-title {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            font-size: 13.5px;
+            line-height: 1.25;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }}
+        .markdown-alert-title svg {{
+            fill: currentColor;
+            flex-shrink: 0;
+        }}
+        .markdown-alert p:last-child,
+        .markdown-alert ul:last-child,
+        .markdown-alert ol:last-child {{
+            margin-bottom: 0;
+        }}
+        .markdown-alert ul, .markdown-alert ol {{
+            margin-top: 6px;
+            margin-bottom: 8px;
+            padding-left: 20px;
+        }}
+        .markdown-alert li {{
+            margin-bottom: 4px;
+        }}
+
+        /* Alert Variants */
+        .markdown-alert-note {{
+            border-color: #0969da;
+            background-color: #f0f7fe;
+            border-top: 1px solid #d0e6fd;
+            border-right: 1px solid #d0e6fd;
+            border-bottom: 1px solid #d0e6fd;
+        }}
+        .markdown-alert-note .markdown-alert-title {{
+            color: #0969da;
+        }}
+
+        .markdown-alert-tip {{
+            border-color: #1a7f37;
+            background-color: #f0faf2;
+            border-top: 1px solid #d1f3d9;
+            border-right: 1px solid #d1f3d9;
+            border-bottom: 1px solid #d1f3d9;
+        }}
+        .markdown-alert-tip .markdown-alert-title {{
+            color: #1a7f37;
+        }}
+
+        .markdown-alert-important {{
+            border-color: #8250df;
+            background-color: #fbf5fe;
+            border-top: 1px solid #eddffc;
+            border-right: 1px solid #eddffc;
+            border-bottom: 1px solid #eddffc;
+        }}
+        .markdown-alert-important .markdown-alert-title {{
+            color: #8250df;
+        }}
+
+        .markdown-alert-warning {{
+            border-color: #9a6700;
+            background-color: #fffbeb;
+            border-top: 1px solid #fef0cd;
+            border-right: 1px solid #fef0cd;
+            border-bottom: 1px solid #fef0cd;
+        }}
+        .markdown-alert-warning .markdown-alert-title {{
+            color: #9a6700;
+        }}
+
+        .markdown-alert-caution {{
+            border-color: #cf222e;
+            background-color: #fff2f1;
+            border-top: 1px solid #fedcdb;
+            border-right: 1px solid #fedcdb;
+            border-bottom: 1px solid #fedcdb;
+        }}
+        .markdown-alert-caution .markdown-alert-title {{
+            color: #cf222e;
         }}
     </style>
 </head>
