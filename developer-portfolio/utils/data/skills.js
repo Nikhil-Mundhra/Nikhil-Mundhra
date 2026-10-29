@@ -4,27 +4,27 @@ export const skillsData = [
     skills: ['Python', 'Javascript', 'Typescript', 'C', 'C++', 'Java']
   },
   {
-    title: 'Frontend',
-    skills: ['React', 'ViteJS', 'Next JS', 'HTML', 'CSS', 'Tailwind']
+    title: 'Data & ML',
+    skills: ['PyTorch', 'Tensorflow', 'OpenCV', 'Numpy', 'Pandas']
   },
   {
     title: 'Backend',
     skills: ['FastAPI', 'GraphQL', 'Flask']
   },
   {
-    title: 'Data & ML',
-    skills: ['Numpy', 'Pandas', 'Tensorflow']
+    title: 'Frontend',
+    skills: ['React', 'Next JS', 'Tailwind', 'HTML', 'CSS', 'ViteJS']
   },
   {
     title: 'Databases',
-    skills: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis']
+    skills: ['PostgreSQL', 'MySQL', 'MongoDB']
   },
   {
     title: 'DevOps & Cloud',
-    skills: ['Docker', 'Kubernetes', 'AWS', 'Azure', 'Linux']
+    skills: ['Docker', 'GCP', 'AWS', 'Azure', 'Git']
   },
   {
     title: 'Tools & Workflow',
-    skills: ['Git', 'Figma', 'CapacitorJs']
+    skills: ['Figma', 'CapacitorJs']
   }
-]
+];

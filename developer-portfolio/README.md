@@ -12,12 +12,12 @@
 </p>
 
 <p align="center">
-  <a href="#demo-movie_camera">Demo</a> •
-  <a href="#features-sparkles">Features</a> •
-  <a href="#installation-arrow_down">Installation</a> •
-  <a href="#usage-joystick">Usage</a> •
-  <a href="#deployment-rocket">Deployment</a> •
-  <a href="#tutorials-wrench">Tutorials</a>
+  <a href="#demo">Demo</a> •
+  <a href="#features">Features</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#deployment">Deployment</a> •
+  <a href="#tutorials">Tutorials</a>
 </p>
 
 ---
@@ -28,21 +28,17 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 
 ---
 
-## Demo :movie_camera:
-
-<p align="center">
-  <img src="./public/image/screen.png" alt="Portfolio Screenshot" width="100%">
-</p>
+## Demo
 
 <p align="center">
   <a href="https://[coming-soon].netlify.app/" target="_blank">
-    <strong>🚀 View Live Demo</strong>
+    <strong>View Live Demo</strong>
   </a>
 </p>
 
 ---
 
-## Features :sparkles:
+## Features
 
 - **Cutting-Edge Tech Stack**: Built with Next.js 16, React 19, and Tailwind CSS 4
 - **Fully Responsive**: Optimized for all devices and screen sizes
@@ -58,7 +54,7 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 
 ---
 
-## Next.js 16 Features Used :rocket:
+## Next.js 16 Features Used
 
 This portfolio leverages the latest Next.js 16 and React 19 capabilities:
 
@@ -127,7 +123,7 @@ This portfolio leverages the latest Next.js 16 and React 19 capabilities:
 
 ---
 
-## Installation :arrow_down:
+## Installation
 
 ### Prerequisites
 
@@ -238,7 +234,7 @@ docker run -p 3000:3000 --name portfolio-prod developer-portfolio:prod
 
 ---
 
-## Usage :joystick:
+## Usage
 
 ### Environment Variables Configuration
 
@@ -321,9 +317,9 @@ profile: "/your-image-name.png"; // or .jpg, .webp
 
 ---
 
-## Deployment :rocket:
+## Deployment
 
-### 🚀 Deploy to Vercel (Recommended)
+### Deploy to Vercel (Recommended)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/said7388/developer-portfolio)
 
@@ -373,13 +369,13 @@ docker-compose -f docker-compose.prod.yml up -d
 
 ---
 
-## Tutorials :wrench:
+## Tutorials
 
-### 📧 Gmail App Password Setup
+### Gmail App Password Setup
 
 1. Go to [https://myaccount.google.com/](https://myaccount.google.com/)
-2. Navigate to **Security** → **2-Step Verification** (enable if not already)
-3. Go to **Security** → **App Passwords**
+2. Navigate to **Security** -> **2-Step Verification** (enable if not already)
+3. Go to **Security** -> **App Passwords**
 4. Select app: **Mail**, device: **Other (Custom name)**
 5. Generate and copy the 16-character password
 6. Add to `.env` file:
@@ -391,7 +387,7 @@ EMAIL_ADDRESS=your.email@gmail.com
 
 ---
 
-### 🤖 Create a Telegram Bot
+### Create a Telegram Bot
 
 1. Open Telegram and search for `@BotFather`
 2. Send `/newbot` command
@@ -408,7 +404,7 @@ TELEGRAM_CHAT_ID=123456789
 
 ---
 
-### 📝 Fetching Blog from dev.to
+### Fetching Blog from dev.to
 
 1. Create a [dev.to](https://dev.to/) account
 2. Open `utils/data/personal-data.js`
@@ -425,7 +421,7 @@ The portfolio automatically fetches and displays your latest public articles. No
 
 ---
 
-## Packages Used :package:
+## Packages Used
 
 ### Core Dependencies
 
@@ -459,12 +455,12 @@ The portfolio automatically fetches and displays your latest public articles. No
 
 ---
 
-## Troubleshooting :wrench:
+## Troubleshooting
 
 ### Common Issues and Solutions
 
 <details>
-<summary><strong>❌ "next is not recognized as an internal or external command"</strong></summary>
+<summary><strong>"next is not recognized as an internal or external command"</strong></summary>
 
 **Solution:**
 
@@ -482,7 +478,7 @@ npm run dev
 </details>
 
 <details>
-<summary><strong>❌ Port 3000 is already in use</strong></summary>
+<summary><strong>Port 3000 is already in use</strong></summary>
 
 **Solution:**
 
@@ -502,7 +498,7 @@ PORT=3001 npm run dev
 </details>
 
 <details>
-<summary><strong>❌ Module not found or dependency errors</strong></summary>
+<summary><strong>Module not found or dependency errors</strong></summary>
 
 **Solution:**
 
@@ -521,7 +517,7 @@ pnpm install
 </details>
 
 <details>
-<summary><strong>❌ Environment variables not working</strong></summary>
+<summary><strong>Environment variables not working</strong></summary>
 
 **Solution:**
 
@@ -533,7 +529,7 @@ pnpm install
 </details>
 
 <details>
-<summary><strong>❌ Images not loading</strong></summary>
+<summary><strong>Images not loading</strong></summary>
 
 **Solution:**
 
@@ -545,7 +541,7 @@ pnpm install
 </details>
 
 <details>
-<summary><strong>❌ Contact form not sending emails</strong></summary>
+<summary><strong>Contact form not sending emails</strong></summary>
 
 **Solution:**
 
@@ -559,7 +555,7 @@ pnpm install
 
 ---
 
-## Contributing :handshake:
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/AmazingFeature`
@@ -569,17 +565,17 @@ pnpm install
 
 ---
 
-## License :page_with_curl:
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Support :coffee:
+## Support
 
-- ⭐ [Star the repository](https://github.com/said7388/developer-portfolio/stargazers)
-- � [Report bugs](https://github.com/said7388/developer-portfolio/issues)
-- � [Suggest features](https://github.com/said7388/developer-portfolio/discussions)
+- [Star the repository](https://github.com/said7388/developer-portfolio/stargazers)
+- [Report bugs](https://github.com/said7388/developer-portfolio/issues)
+- [Suggest features](https://github.com/said7388/developer-portfolio/discussions)
 
 ---
 
