@@ -31,7 +31,11 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 ## Demo
 
 <p align="center">
-  <a href="https://[coming-soon].netlify.app/" target="_blank">
+  <img src="./public/image/screen.png" alt="Portfolio Screenshot" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://nikhil-mundhra.netlify.app/" target="_blank">
     <strong>View Live Demo</strong>
   </a>
 </p>
