@@ -1,11 +1,57 @@
- 
-Nikhil  Mundhra  
-LinkedIn.com/in/Mundhra-Nikhil |  Github.com/Nikhil-Mundhra Delhi,  India  |  +91  7060410033  |  nikhil.mundhra@nyu.edu  EDUCATION  &  SKILLS  
- 
-BSc.  in  Computer  Science  with  Economics  &  Applied  Math  at  New  York  University  Abu  Dhabi,  UAE.    Aug  2023  –  May  2027  ●  Capstone  Project in  advanced  CNNs  for  feature  discovery  and  analysis  of  retinal  imaging.  ●  UAE  Top  3  Adaptive  City  Hackathon  Award  Winner  @  C0mplied-2/UAE by  the  Transpose  Platform   ●  Please  find  my  CS  Courses  and  Electives  @  GitHub  -  Nikhil-Mundhra/Learning Programming  Languages:   JavaScript  |  Python  |  TypeScript  |  C  |  C++  |  Java  |  GML  Libraries  &  Frameworks:  Over  20+  JS  Libraries  |  JWT  |  VITE  |  Flask  |  NumPy  |  R  |  STATA  |  MongoDB  Atlas  |  SQL   Tools:  VSCode  |  Docker  |  Github  &  Azure  DevOps  |  ESLint,  Mocha,  &  Pytest  |  Git  with  CI/CD  |  Dependabot  |  Capacitor  Platforms  &  Services:  Vercel  |  CloudFlare  |  AWS  |  SSO  &  OAuth  |  GX  Studio  
-EXPERIENCE  
- 
-KANERIKA  SOFTWARE  PVT.  LTD.  @  Hyderabad,  India  (An  AI  and  Data  Company)     Jun  2026  –  Aug  2026  AI  Intern   ●  Developed  full  UI/UX  of  marketing  pages  in  Next.js,  Tailwind  CSS  of  internal  products  i.e.  Karl  and  Klarity360   ●  Conducting  functional  and  technical  API  testing  and  debugging  of  Kanerika  AI  Labs’  products  (including  Karl)   ●  Developed  an  Microsoft  word  add-in  MVP  for  Klara’s  AI  agent   VIVAHGO  PLANNERS  (An  AI-driven  SaaS  platform  for  wedding  workspaces)      Mar  2026  –  Present  Solo  Founder  ●  Ideated,  designed,  developed,  and  implemented  VivahGo.com end-to-end.   ●  Owning  architecture,  frontend,  backend,  APIs,  and  third-party  integrations  from  the  ground  up.   ●  Set  the  technical  foundation  for  scale  through  architecture  decisions,  code  quality  standards,  and  rapid  execution.   COOL  REMINDERS (A  Full  MERN  Stack  personal  project)          Aug  2025  –  Dec  2025  ●  Manually  coded  in  over  5+  JS  libraries  and  3+  API  frameworks  to  deploy  a  personal  To-Do  list  platform  ALSTOM  TRANSPORT  INDIA  LIMITED  @  New  Delhi,  Vadodara,  and  Bangalore  in  India       Jun  2025  –  Aug  2025  Cyber  Security  &  Project  Management  Intern    ●  Conducted  multi-site  research  on  the  testing  and  commissioning  of  RS17  Trains  across  4+  offices.  ●  Analyzed  the  DfQ  V-cycle,  gate  reviews,  and  system  validation  &  verification  checkpoints.   ●  Acquired  exposure  to  OT  cybersecurity  models,  including  network  segmentation  and  IEC  62443  compliance.  STUDENT  LEADERSHIP  @  New  York  University     ●  Alternate  NYU  Abu  Dhabi  Senator  at  NYU Student Government Assembly  (SGA),  New  York,  USA    Sep  2025  –  Dec  2025  ●  Treasurer  of  Code  Paris  at  NYU  Paris,  France                                               Jan  2025  –  May  2025   ●  President  of  Mathematics  SIG @  NYU  Abu  Dhabi,  UAE                       Apr  2024  –  Dec  2024  ●  Founder  and  President  of  Hindu  Student  Association @  NYU  Abu  Dhabi,  UAE                                   Mar  2024  –  Dec  2024   PHOOL.CO  ( Flower  cycling  &  E-commerce  company)  @  New  Delhi,  India  Marketing  Analyst  Intern                                            Jun  2024  -  Aug  2024      ●  Revitalized  targeted  marketing  strategies  by  researching  B2B  clients,  competitors,  &  potential  ad  campaigns.   ●  Developed  a  subscription  and  membership  model  for  Shopify  implementation  for  customer  retention.   ●  Analyzed  buying  behavior  over  geographical,  financial,  and  seasonal  parameters  for  marketing  insights  via  STATA.  STOCK  MARKET  EXPERIENCE  @  New  York  University  Abu  Dhabi,  UAE  ●  Globally  ranked  243,  with  net  profit  of  5%  in  30  days  as  a  Bloomberg  trading  challenger.       Sep  2023  -  Nov  2023  JAI  BALAJEE  PLYWOOD  INDUSTRIES  PVT.  LTD.  (Plywood  manufacturing  company)  @  New  Delhi,  India             May  2023  -  Sep  2023      ●  Developed  www.naturoindustries.com and  www.naturosurfaces.com using  Shopify  &  GoDaddy.  INDEPENDENT  RESEARCH  EXPERIENCE  in  CS  HL  @  Jayshree  Periwal  International  School,  Jaipur,  India     Jan  2022  -  May  2023  THE  CLIMATE  REALITY  PROJECT  (Climate  solutions  NGO)  Internship  @  New  Delhi,  India                                       May  2022  -  July  2022  CHILD  RIGHTS  AND  YOU  (Community  service  NGO)  Internship  @  New  Delhi,  India        Mar  2021  -  July  2021        AWARDS  AND  ACCOMPLISHMENTS  
- 
-Distinction  Certificate  on  CEMC  Waterloo  CCC  (Canadian  Computing  Competition)       Oct   2022  Batches  of  Recognition  as  School  Captain  &  Math  Club  President  @  JPIS  (High  School)     Apr   2022  Certificate  of  Appreciation  for  DHEERA  (No  to  VAW)  Program,  under  UNICEF  &  FOGSI  (2021-22)  Feb   2022  Name  in  the  Hall  of  Fame  for  acquiring  A*s  in  all  IGCSE  Subjects  @  JPIS        June  2021  National  Finalist  @  RoboCup  Junior  2019  Mar   2019   
+Nikhil Mundhra
+linkedin.com/in/mundhra-nikhil | github.com/nikhil-mundhra
+Abu Dhabi, UAE | +971 503526342 | nikhil.mundhra@nyu.edu
 
+EDUCATION & SKILLS
+BSc. in Computer Science with Economics & Applied Math | New York University Abu Dhabi (Aug 2023 - May 2027)
+- Cumulative GPA: 3.5 / 4.0 | Focus Areas: Machine Learning and AI Engineering
+- Selected for and completed Study Away terms at NYU CAS, NYU Tandon, and NYU Paris (Jan 2025 - Dec 2025)
+UAE Top 3 Adaptive City Hackathon Award Winner | Organized by the Transpose Platform
+Distinction Certificate | CEMC Waterloo CCC (Canadian Computing Competition)
+Languages: Python | SQL | C++ | Bash | JavaScript | TypeScript | C | Java | R
+AI & Machine Learning: PyTorch | TensorFlow | NumPy | Scikit-Learn | Pandas | LLMs | RAG | LangGraph | Time-Series
+MLOps, Cloud & Systems: Linux | Docker & Kubernetes | CI/CD (Github & Azure DevOps) | Git | GCP | AWS | NYUAD HPC
+Software & Backend Systems: PostgreSQL | Redis | Flask | REST APIs | Pytest
+
+PROFESSIONAL EXPERIENCE
+Machine Learning Researcher (Capstone Project) | NYU Abu Dhabi, Center for Brain and Health (May 2026 - Present)
+- Engineered 2.5D Bi-Planar ResNet, 3D U-Net, and Hybrid TransUNet models for RNFL segmentation (320x768x320) under Dr. Bas Rokers, achieving 0.953 Surface Dice and 4.71 um (~1.5-px) boundary error (beating commercial Solix/Heidelberg baselines with +64.6% audit gain and 47% lower P95 tail error).
+- Developed a hierarchical ConvNeXt V2 classifier with multi-scale CBAM attention and Grad-CAM across 88,800+ OCT B-scans (7,536 patients), achieving 98% triage F1 across 12 retinal pathologies under zero-leakage strict cross-validation.
+- Architected end-to-end PyTorch, MONAI, and scikit-learn pipelines for automated multi-task training (Tversky, continuous boundary regression, and BMO cup losses), validation, and clinical reporting across 237 volumetric 3D scans (~75,800 slices), reducing per-volume inference latency by up to 8x (7.1s vs. 45-60s heuristic baseline).
+- Scaled distributed multi-GPU training on NYUAD's Jubail HPC cluster across NVIDIA H200, A100, and 4x V100 GPUs (128 GB VRAM) via PyTorch DDP under Prof. Gabriel Falcao, optimizing mixed-precision (BF16/FP16 with FP32 loss upcasting) at effective batch size 64 to reach 95%-98% GPU SM utilization.
+- Targeting publication at IPMI for a comparative study of ML architectures and their biomarker detection accuracy.
+
+AI Intern | Kanerika Software Pvt. Ltd. - Hyderabad, India (Jun 2026 - Aug 2026)
+- Engineered an agentic fraud engine that synthesizes financial typologies (rent skimming, subsidy theft) into persistent SQL rules across a data lake, pairing deterministic flagging with LLM audit explainability.
+- Developed a legal document compliance AI engine with a multi-tenant distributed Microsoft WOPI architecture and native Word add-in end-to-end, enabling seamless integration into client ecosystems.
+- Conducting functional and technical REST API testing and debugging of Kanerika AI Labs' products (including Karl).
+
+Cyber Security & Project Management Intern | Alstom - India (Jun 2025 - Aug 2025)
+- Conducted multi-site research of RS17 Trains, analyzing the DfQ V-cycle, gate reviews, and system V&V checkpoints.
+- Shadowed development of OT cybersecurity models, including network segmentation and IEC 62443 compliance.
+
+Marketing Analyst Intern | Phool.Co - New Delhi, India (Jun 2024 - Aug 2024)
+- Reported geographical, financial, and seasonal buying behaviors using multi-variable data models in STATA & R.
+
+PROJECTS
+Developer (Team Lead) | AeroLodge Metrics - Department of Culture & Tourism, UAE funded project (Aug 2026 - Oct 2026)
+- Facilitated flight routes & hotel capacity decisions for the DCT using proprietary data by curating a lake architecture, and modeling noisy multi-horizon time-series via Constrained Convolution Filters, outperforming deep neural baselines.
+
+Developer (Team Lead) | Wealth Advisor - A Shenzhen FinTechathon project (Sep 2026 - Oct 2026)
+- Built a B2B2C Dynamic Expat Wealth Agent (DEWA) for autonomous AI wealth advisory for advisors and end-clients.
+
+Founder | VivahGo Planners - An AI-driven SaaS platform for wedding workspaces (Mar 2026 - Present)
+- Handled Marketing, Operations, Software Development, Finances, and Legal compliances of founding a startup.
+
+Developer (Solo) | TakeOver - Vercel & GCP Deployed Full Stack AI Harness for WhatsApp (Jul 2026 - Sep 2026)
+- Engineered TakeOver agent pipeline to use semantic chat context, user guidelines, and smart permission polling.
+
+LEADERSHIP
+Founder and President | Hindu Student Association (Peacock), NYU Abu Dhabi (Mar 2024 - Present)
+- Kickstarted a thriving community of 300+ members, averaging 50-200 attendees per event, with under AED 20,000 p.a.
+
+Treasurer (Founding Team) | Code Paris - NYU Paris, France (Jan 2025 - May 2025)
+- Designed educational frameworks and held workshops on NumPy, AI models, and advanced programming concepts.
+
+Team Leader of 5 NYUAD undergraduates | Bloomberg Trading Challenge (Sep 2023 - Nov 2023)
+- Globally ranked 243, with net profit of 5% in 30 days over a diverse 1 million virtual USD portfolio.
