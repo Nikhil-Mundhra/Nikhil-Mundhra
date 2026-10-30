@@ -84,7 +84,7 @@ export default function CVPage() {
           </div>
 
           <a
-            href="/cv.pdf"
+            href="/cv.pdf?v=20261030"
             download="Nikhil_Mundhra_CV.pdf"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#16f2b3] to-violet-600 text-[#060916] font-mono text-xs font-bold uppercase tracking-wider shadow-[0_0_20px_rgba(22,242,179,0.3)] hover:shadow-[0_0_30px_rgba(22,242,179,0.5)] transition-all no-underline"
           >
@@ -93,7 +93,7 @@ export default function CVPage() {
           </a>
 
           <a
-            href="/cv.pdf"
+            href="/cv.pdf?v=20261030"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/[0.06] hover:bg-white/10 text-gray-200 border border-white/10 font-mono text-xs uppercase tracking-wider transition-all no-underline"
@@ -578,7 +578,7 @@ export default function CVPage() {
             } h-[85vh] rounded-2xl border border-white/15 overflow-hidden bg-[#0a0f24] shadow-[0_25px_70px_rgba(0,0,0,0.6)]`}
           >
             <iframe
-              src="/cv.pdf"
+              src="/cv.pdf?v=20261030"
               className="w-full h-full"
               title="Nikhil Mundhra Resume / CV PDF"
             />
